@@ -63,8 +63,8 @@ Sua aplicação deve ler o conteúdo desse arquivo `.txt` e exibir as perguntas 
 
 **<span style="color:red">Não é permitido usar o "print" nas perguntas no código, você deverá LER o arquivo!</span>** 
 
-## 📍Passo 2: Criação do menu inicial 📝
-Após o arquivo estar printando o conteúdo do `formulario.txt` no terminal, você deverá criar um menu inicial com as seguintes opções:
+## 📍Passo 2: Criação do Menu inicial 📝
+Após o arquivo estar printando o conteúdo do `formulario.txt` no terminal, você deverá criar um Menu inicial com as seguintes opções:
 
 1. Cadastrar um novo pet
 2. Alterar os dados do pet cadastrado
@@ -73,12 +73,12 @@ Após o arquivo estar printando o conteúdo do `formulario.txt` no terminal, voc
 5. Listar pets por algum critério (idade, nome, raça)
 6. Sair
 
-O menu deve ser exibido no terminal e o usuário deve poder escolher uma opção digitando o número correspondente.
+O Menu deve ser exibido no terminal e o usuário deve poder escolher uma opção digitando o número correspondente.
 
 ### _Regras ⚠️_
 
 1. O usuário não poderá usar 0 ou números negativos.
-2. Caso o usuário digite um número inválido, o menu deve ser exibido novamente.
+2. Caso o usuário digite um número inválido, o Menu deve ser exibido novamente.
 3. O usuário só poderá digitar números, não podendo digitar letras ou caracteres especiais.
 
 
@@ -144,7 +144,7 @@ Além disso, o usuário poderá combinar de 1 a 2 critérios de busca, ou seja:
 - Nome e / ou sobrenome E IDADE
 - Idade E peso 
 
-Então, neste momento, você deverá EXIBIR um novo menu perguntando sobre quais critérios o usuário desejará usar para buscar o pet.
+Então, neste momento, você deverá EXIBIR um novo Menu perguntando sobre quais critérios o usuário desejará usar para buscar o pet.
 
 Após o usuário selecionar os critérios, você deverá printar no terminal os pets que correspondem aos critérios de busca, podendo ser 1 ou mais, neste formato:
 
@@ -171,7 +171,7 @@ Permitir que o usuário altere os dados de um pet cadastrado.
 
 ### _Regras ⚠️_
 1. O usuário deverá BUSCAR seguindo os critérios da resposta anterior.
-2. Caso o usuário digite um número de busca inválido, o menu de busca deverá ser exibido novamente.
+2. Caso o usuário digite um número de busca inválido, o Menu de busca deverá ser exibido novamente.
 3. O usuário receberá uma LISTA (igual a exibição anterior) com os resultados da busca, e deverá escolher o número do pet que deseja alterar.
 4. O usuário poderá alterar TODOS os dados do pet, EXCETO o TIPO E SEXO
 
@@ -180,7 +180,7 @@ O usuário, ao selecionar a opção de 4, deverá ser capaz de deletar o pet.
 
 ### _Regras ⚠️_
 1. O usuário deverá BUSCAR seguindo os critérios da resposta anterior.
-2. Caso o usuário digite um número de busca inválido, o menu de busca deverá ser exibido novamente.
+2. Caso o usuário digite um número de busca inválido, o Menu de busca deverá ser exibido novamente.
 3. O usuário receberá uma LISTA (igual a exibição anterior) com os resultados da busca, e deverá escolher o número do pet que deseja deletar.
 4. O usuário deverá confirmar a exclusão do pet, digitando SIM ou NÃO.
 5. Só poderá ser deletado um pet por vez.
@@ -202,12 +202,12 @@ Você irá criar na tela inicial, uma nova tela de opções, sendo:
 2 - Iniciar o sistema para alterar formulário
 ```
 
-Caso o usuário escolha a opção 2, você deverá exibir um novo menu com as seguintes opções:
+Caso o usuário escolha a opção 2, você deverá exibir um novo Menu com as seguintes opções:
 
 1. Criar nova pergunta 
 2. Alterar pergunta existente
 3. Excluir pergunta existente
-4. Voltar para o menu inicial
+4. Voltar para o Menu inicial
 5. Sair
 
 ### _Regras Opção 1 ⚠️_
